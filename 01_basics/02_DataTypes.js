@@ -4,3 +4,4 @@
 
 
 console.log(typeof null); // data type of Null is Object keep in mind
+console.log(typeof undefined); // data type of Undefine is always Undefine
