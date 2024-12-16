@@ -10,11 +10,5 @@ let holder = Boolean(isLoggedIn);
 console.log(holder);
 
 
-
-
-
-
-
-
 // console.log(typeof valueInInteger); // number
 // console.log(valueInInteger); // NaN
