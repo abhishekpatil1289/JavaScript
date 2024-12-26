@@ -11,7 +11,7 @@
 
 
 // console.log(typeof valueInInteger); // number
-// console.log(valueInInteger); // NaN
+// console.log(valueInInteger); // if the score holds some string values then it converted into number but when we print them it shows ==> "NaN"
 // console.log(2 + 3 + 4 + "7")
 let game = 100;
 let temp = game++;
