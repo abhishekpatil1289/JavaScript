@@ -59,5 +59,5 @@ console.log(bc)
 /*
 In the above example i provide the "ab" value to the "bc" 
 and again i change the value of "bc.name" then it also effects on "ab" object also because, Object is Non-Preative DataType which directly gives the refrenct from the Heam Memory 
-// Array , Function, Object are stred in Heap Function 
+// Array , Function, Object are stored in Heap Function 
 */
