@@ -32,4 +32,22 @@ const data = [
     { id: 12, name: "Liam", age: 38, city: "Orlando" }
 ];
 
-const iN2 = data.filter((num) => (num < 4))
+// const iN2 = data.filter((num) => (num.age > 40))
+// const iNo2 = data.filter((item) => { return item.id > 9 })
+// const iNo2 = data.filter((item) => { return item.age > 30 && item.id > 5 || item.city == "Austin"})
+
+const MyArr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const iNo = MyArr.map((num) => num * 2)
+    .map((iNo) => iNo * 3)
+    .filter((tp) => tp > 20)
+
+// console.log(iNo)
+
+
+const SecondArr = [1, 2, 3, 4, 5];
+let InitialValue = 0;
+const holder = SecondArr.reduce(
+    (acumulatorValue, CurrentValue) => acumulatorValue + CurrentValue, InitialValue
+)
+console.log(holder)
