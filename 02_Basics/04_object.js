@@ -8,9 +8,7 @@ const regularUser = {
     }
 }
 
-// const arr = [1, 2, 34, 5];
-
-// console.log(regularUser.flat());
+// const arr = [1, 2, 34, 5]; 
 
 // const m1 = { 1: "A", 2: "B" };
 // const m2 = { 3: "C", 4: "D" };
@@ -57,6 +55,6 @@ tinder.monitor = "0023BD"
 // console.log(Object.entries(tinder));
 // console.log(tinder.hasOwnProperty('id'));
 
-const { monitor : tempname } = tinder; // DiStructuring of tinder Object 
+const { monitor: tempname } = tinder; // DiStructuring of tinder Object 
 
 console.log(tempname)

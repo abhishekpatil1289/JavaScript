@@ -8,7 +8,7 @@ const jsUser = {
 }
 
 // console.log(jsUser.email)
-// console.log(jsUser["lastLogginDays"])
+console.log(jsUser["lastLogginDays"])
 
 // Object.freeze(jsUser)
 
@@ -21,5 +21,5 @@ jsUser.greeting = function Myage() {
     return `my age is ${this.age}`
 }
 
-console.log(jsUser.greeting());
+// console.log(jsUser.greeting());
 
